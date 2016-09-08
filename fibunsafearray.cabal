@@ -1,0 +1,19 @@
+name:                fibunsafearray
+version:             0.1.0.0
+synopsis:            Testing a thought experiment
+description:         Please see README.md
+homepage:            https://github.com/TRManderson/fibunsafearray
+license:             BSD3
+license-file:        LICENSE
+author:              Tom Manderson
+maintainer:          me@trm.io
+copyright:           2016 Tom Manderson
+build-type:          Simple
+cabal-version:       >=1.10
+
+executable fibunsafearray
+  hs-source-dirs:      src
+  main-is:             Main.hs
+  default-language:    Haskell2010
+  build-depends:       base >= 4.7 && < 5
+                     , array
